@@ -1,6 +1,6 @@
 import { StatsWrap } from "./Statistics.styled"
 
-export const Statistics = ({ stats: { good, neutral, bad }, total, positivePercentage }) => {
+export const Statistics = ({good, neutral, bad, total, positivePercentage }) => {
         return (
             <StatsWrap>
             <p>Good: {good}</p>
