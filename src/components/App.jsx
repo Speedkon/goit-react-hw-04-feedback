@@ -40,7 +40,7 @@ export const App = () => {
     return (
       <SectionWrap>
         <Section title="Please, leave feedback"><FeedbackOptions
-            options={["Good", "Neutral", "Bad"]} 
+            options={Object.keys({good, neutral, bad})} 
             onLeaveFeedback={onLeaveFeedback}
           />
         </Section>
